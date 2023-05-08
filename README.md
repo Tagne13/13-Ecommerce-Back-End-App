@@ -26,7 +26,7 @@
 
   Start the server using 'npm start' in the command line. Next, access the API routes using Insomnia using the desired endpoints in order to make requests to the database. Refer to the video demonstration for use of API route endpoints using Insomnia. 
 
-  [Video Demonstration]
+  [Video Demonstration](https://drive.google.com/file/d/1j1qYpRjDWbhrXFknN6fjsmzft8Iu9X__/view)
 
   ![Screenshot](images/Screenshot.png)
 
