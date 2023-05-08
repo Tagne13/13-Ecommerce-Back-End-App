@@ -8,9 +8,6 @@ router.get('/', async (req, res) => {
   // find all products
   try {
     const productData = await Product.findAll({
-      where: {
-        id: req.params.id
-      },
       include: [
       {
         model: Category,
@@ -24,6 +21,7 @@ router.get('/', async (req, res) => {
   });
     res.status(200).json(productData);
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
